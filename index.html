@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1c1e; --muted: #6b6b70; --rule: #e3e3e8;
+    --accent: #f59e0b; --chip: #f2f2f7; --chip-fg: #3a3a3c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000; --fg: #f2f2f7; --muted: #9a9aa0; --rule: #2c2c2e;
+      --accent: #f5a623; --chip: #1c1c1e; --chip-fg: #d1d1d6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1.25rem 4rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 1.25rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .6rem; letter-spacing: -0.01em; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  li > ul { margin: .35rem 0 .5rem; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; word-break: break-word; }
+  strong { font-weight: 650; }
+  nav {
+    display: flex; flex-wrap: wrap; gap: .5rem;
+    margin: 0 0 2rem; padding: 0 0 1.25rem; border-bottom: 1px solid var(--rule);
+  }
+  nav button {
+    font: inherit; font-size: .9rem; cursor: pointer;
+    padding: .4rem .85rem; border-radius: 999px;
+    border: 1px solid transparent; background: var(--chip); color: var(--chip-fg);
+  }
+  nav button:hover { border-color: var(--rule); }
+  nav button[aria-current="true"] { background: var(--accent); color: #1c1c1e; font-weight: 600; }
+  /* No JS: English still renders. JS reveals the rest. */
+  section[hidden] { display: none; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+            color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <nav aria-label="Language">
+    <button id="btn-en" type="button" lang="en">English</button>
+    <button id="btn-es" type="button" lang="es">Español</button>
+    <button id="btn-de" type="button" lang="de">Deutsch</button>
+    <button id="btn-fr" type="button" lang="fr">Français</button>
+    <button id="btn-pt-BR" type="button" lang="pt-BR">Português</button>
+  </nav>
+  <section id="doc-en" lang="en">
+<h1>Privacy Policy</h1>
+<p>
+<strong>Effective date: 16 July 2026</strong>
+</p>
+<p>
+This policy covers the following apps ("the Apps"), published by
+<br>
+<strong>[Developer name]</strong> ("we", "us"):
+</p>
+<ul>
+<li><strong>Finora Budget</strong> (budgeting &amp; finance)</li>
+<li><strong>Vitals Flow</strong> (health &amp; habit tracking)</li>
+<li><strong>Smart Utility Hub</strong> (pool &amp; kitchen utilities)</li>
+</ul>
+<p>
+<strong>Short version: we do not collect your data.</strong> The Apps have no user accounts, no
+<br>
+analytics, no advertising, no trackers, and no server that we operate. Your information
+<br>
+stays on your device (and, if you choose, in your own iCloud).
+</p>
+<hr>
+<h2>1. Information we collect</h2>
+<p>
+<strong>None.</strong> We do not operate any server or account system, and the Apps contain no
+<br>
+third-party analytics, advertising, attribution, or tracking software. We receive no
+<br>
+personal information from you, and we cannot see the data you enter.
+</p>
+<h2>2. Where your data lives</h2>
+<ul>
+<li><strong>On your device.</strong> Everything you enter — transactions, budgets, health readings, habits, pool and kitchen data — is stored locally on your device.</li>
+<li><strong>Your iCloud (Finora Budget and Vitals Flow, optional).</strong> Both apps can synchronize your data across your Apple devices using Apple's <strong>CloudKit private database</strong>. This uses <em>your</em> iCloud account and is managed entirely by Apple; we have no access to it. See Apple's privacy policy at <a href="https://www.apple.com/legal/privacy/.">https://www.apple.com/legal/privacy/.</a></li>
+<ul>
+<li>Sync is a <strong>Pro</strong> feature in both apps, and each has a <strong>Settings → iCloud Sync</strong> switch to turn it off. In <strong>Finora Budget</strong> it is <strong>on by default once Pro is active</strong>; in <strong>Vitals Flow</strong> you turn it on yourself. Either way it only ever uses your own iCloud — never a server of ours.</li>
+<li><strong>Smart Utility Hub</strong> does not use iCloud at all; its data stays on your device.</li>
+</ul>
+<li><strong>Apple Health (Vitals Flow only, optional).</strong> With your permission, Vitals Flow reads from and writes to <strong>HealthKit</strong>. That data remains in your Health store under your control, is never transmitted to us, and is never used for advertising or shared with third parties.</li>
+</ul>
+<h2>3. Optional AI features (bring-your-own-key)</h2>
+<p>
+Some features can use an AI provider to help you — for example scanning a receipt, reading
+<br>
+a blood-pressure monitor, analyzing a pool test strip, or giving pool guidance. **These
+<br>
+features are off by default<strong> and work only if </strong>you<strong> add your </strong>own** API key for a
+<br>
+provider you choose:
+</p>
+<ul>
+<li><strong>OpenAI</strong> — <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a></li>
+<li><strong>Anthropic</strong> — <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
+</ul>
+<p>
+When you use such a feature, the relevant content (for example the image or text you are
+<br>
+processing) is sent **directly from your device to the provider you configured, using your
+<br>
+own account and key.** We do not receive, store, or have access to that content, or to your
+<br>
+key. Your use of a provider is governed by <strong>that provider's</strong> terms and privacy policy.
+<br>
+To disable this entirely, simply do not add an API key (or remove it in Settings).
+</p>
+<h2>4. Device permissions</h2>
+<p>
+The Apps request only what a feature needs, and the data stays on your device unless a
+<br>
+section above says otherwise:
+</p>
+<ul>
+<li><strong>Camera</strong> — to scan receipts, a blood-pressure monitor, or a pool test strip.</li>
+<li><strong>Bluetooth</strong> — to connect to a compatible body or kitchen scale.</li>
+<li><strong>Face ID / Touch ID</strong> — to lock the app. Biometric authentication is handled by Apple's Secure Enclave; we never receive your biometric data.</li>
+<li><strong>Notifications</strong> — for reminders you set (e.g. habit or bill reminders).</li>
+</ul>
+<h2>5. Sharing and selling</h2>
+<p>
+We do <strong>not</strong> sell, rent, or share your personal information with anyone. We do not track
+<br>
+you across other apps or websites, so no App Tracking Transparency prompt is shown.
+</p>
+<h2>6. Data retention and deletion</h2>
+<p>
+Because your data is stored on your device (and optionally in your iCloud), <strong>you</strong> control
+<br>
+it. Deleting an App removes its on-device data. iCloud data is managed in your Apple ID /
+<br>
+iCloud settings. Any backups you export are files you save and control.
+</p>
+<h2>7. Children's privacy</h2>
+<p>
+The Apps are not directed to children under 13 and do not knowingly collect information from
+<br>
+children. Since we collect no data at all, no such information is gathered.
+</p>
+<h2>8. Changes to this policy</h2>
+<p>
+If we change this policy, we will update the effective date above and post the revised
+<br>
+version at this URL. Material changes will be reflected before they take effect.
+</p>
+<h2>9. Translations</h2>
+<p>
+This policy is offered in other languages for convenience. **The English version is the
+<br>
+authoritative one**; if a translation and the English text ever disagree, the English text
+<br>
+governs.
+</p>
+<h2>10. Contact</h2>
+<p>
+Questions about this policy? Contact us at <strong>[contact email]</strong>.
+</p>
+  </section>
+  <section id="doc-es" lang="es" hidden>
+<h1>Política de Privacidad</h1>
+<p>
+<strong>Fecha de entrada en vigor: 16 de julio de 2026</strong>
+</p>
+<p>
+Esta política cubre las siguientes aplicaciones («las Apps»), publicadas por
+<br>
+<strong>[Developer name]</strong> («nosotros»):
+</p>
+<ul>
+<li><strong>Finora Budget</strong> (presupuesto y finanzas)</li>
+<li><strong>Vitals Flow</strong> (seguimiento de salud y hábitos)</li>
+<li><strong>Smart Utility Hub</strong> (utilidades de piscina y cocina)</li>
+</ul>
+<p>
+<strong>Versión breve: no recopilamos tus datos.</strong> Las Apps no tienen cuentas de usuario, ni
+<br>
+analíticas, ni publicidad, ni rastreadores, ni ningún servidor operado por nosotros. Tu
+<br>
+información permanece en tu dispositivo (y, si así lo eliges, en tu propio iCloud).
+</p>
+<hr>
+<h2>1. Información que recopilamos</h2>
+<p>
+<strong>Ninguna.</strong> No operamos ningún servidor ni sistema de cuentas, y las Apps no contienen
+<br>
+software de analítica, publicidad, atribución o rastreo de terceros. No recibimos ninguna
+<br>
+información personal tuya y no podemos ver los datos que introduces.
+</p>
+<h2>2. Dónde residen tus datos</h2>
+<ul>
+<li><strong>En tu dispositivo.</strong> Todo lo que introduces —transacciones, presupuestos, mediciones de salud, hábitos, datos de piscina y cocina— se almacena localmente en tu dispositivo.</li>
+<li><strong>Tu iCloud (Finora Budget y Vitals Flow, opcional).</strong> Ambas apps pueden sincronizar tus datos entre tus dispositivos Apple mediante la <strong>base de datos privada de CloudKit</strong> de Apple. Esto usa <em>tu</em> cuenta de iCloud y lo gestiona íntegramente Apple; nosotros no tenemos acceso a ello. Consulta la política de privacidad de Apple en <a href="https://www.apple.com/legal/privacy/.">https://www.apple.com/legal/privacy/.</a></li>
+<ul>
+<li>La sincronización es una función <strong>Pro</strong> en ambas apps, y cada una tiene un interruptor en <strong>Ajustes → Sincronización con iCloud</strong> para desactivarla. En <strong>Finora Budget</strong> está <strong>activada por defecto en cuanto Pro está activo</strong>; en <strong>Vitals Flow</strong> la activas tú. En ambos casos solo se usa tu propio iCloud, nunca un servidor nuestro.</li>
+<li><strong>Smart Utility Hub</strong> no usa iCloud en absoluto; sus datos permanecen en tu dispositivo.</li>
+</ul>
+<li><strong>Apple Salud (solo Vitals Flow, opcional).</strong> Con tu permiso, Vitals Flow lee y escribe en <strong>HealthKit</strong>. Esos datos permanecen en tu app Salud bajo tu control, nunca se nos transmiten y nunca se usan para publicidad ni se comparten con terceros.</li>
+</ul>
+<h2>3. Funciones de IA opcionales (con tu propia clave)</h2>
+<p>
+Algunas funciones pueden usar un proveedor de IA para ayudarte —por ejemplo, escanear un
+<br>
+recibo, leer un tensiómetro, analizar una tira de test de piscina o dar orientación sobre la
+<br>
+piscina—. <strong>Estas funciones están desactivadas de forma predeterminada</strong> y solo funcionan si
+<br>
+<strong>tú</strong> añades tu <strong>propia</strong> clave de API de un proveedor que tú elijas:
+</p>
+<ul>
+<li><strong>OpenAI</strong> — <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a></li>
+<li><strong>Anthropic</strong> — <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
+</ul>
+<p>
+Cuando usas una de estas funciones, el contenido correspondiente (por ejemplo, la imagen o el
+<br>
+texto que estás procesando) se envía **directamente desde tu dispositivo al proveedor que
+<br>
+configuraste, usando tu propia cuenta y clave.** No recibimos, almacenamos ni tenemos acceso a
+<br>
+ese contenido, ni a tu clave. Tu uso de un proveedor se rige por los términos y la política de
+<br>
+privacidad de <strong>ese proveedor</strong>. Para desactivar esto por completo, simplemente no añadas
+<br>
+ninguna clave de API (o elimínala en Ajustes).
+</p>
+<h2>4. Permisos del dispositivo</h2>
+<p>
+Las Apps solicitan únicamente lo que necesita cada función, y los datos permanecen en tu
+<br>
+dispositivo salvo que una sección anterior indique lo contrario:
+</p>
+<ul>
+<li><strong>Cámara</strong> — para escanear recibos, un tensiómetro o una tira de test de piscina.</li>
+<li><strong>Bluetooth</strong> — para conectarse a una báscula corporal o de cocina compatible.</li>
+<li><strong>Face ID / Touch ID</strong> — para bloquear la app. La autenticación biométrica la gestiona el Secure Enclave de Apple; nunca recibimos tus datos biométricos.</li>
+<li><strong>Notificaciones</strong> — para los recordatorios que configures (p. ej., de hábitos o facturas).</li>
+</ul>
+<h2>5. Compartir y vender</h2>
+<p>
+<strong>No</strong> vendemos, alquilamos ni compartimos tu información personal con nadie. No te rastreamos
+<br>
+a través de otras apps o sitios web, por lo que no se muestra ningún aviso de Transparencia de
+<br>
+Seguimiento de Apps.
+</p>
+<h2>6. Conservación y eliminación de datos</h2>
+<p>
+Como tus datos se almacenan en tu dispositivo (y, opcionalmente, en tu iCloud), <strong>tú</strong> los
+<br>
+controlas. Al eliminar una App se borran sus datos del dispositivo. Los datos de iCloud se
+<br>
+gestionan en los ajustes de tu Apple ID / iCloud. Cualquier copia de seguridad que exportes es
+<br>
+un archivo que tú guardas y controlas.
+</p>
+<h2>7. Privacidad de los menores</h2>
+<p>
+Las Apps no están dirigidas a menores de 13 años y no recopilan a sabiendas información de
+<br>
+menores. Dado que no recopilamos ningún dato en absoluto, no se recoge tal información.
+</p>
+<h2>8. Cambios en esta política</h2>
+<p>
+Si modificamos esta política, actualizaremos la fecha de entrada en vigor anterior y
+<br>
+publicaremos la versión revisada en esta URL. Los cambios importantes se reflejarán antes de
+<br>
+que entren en vigor.
+</p>
+<h2>9. Traducciones</h2>
+<p>
+Esta política se ofrece en otros idiomas por comodidad. **La versión en inglés es la
+<br>
+auténtica**; si una traducción y el texto en inglés no coinciden, prevalece el texto en inglés.
+</p>
+<h2>10. Contacto</h2>
+<p>
+¿Preguntas sobre esta política? Escríbenos a <strong>[contact email]</strong>.
+</p>
+  </section>
+  <section id="doc-de" lang="de" hidden>
+<h1>Datenschutzerklärung</h1>
+<p>
+<strong>Gültig ab: 16. Juli 2026</strong>
+</p>
+<p>
+Diese Erklärung gilt für die folgenden Apps („die Apps"), herausgegeben von
+<br>
+<strong>[Developer name]</strong> („wir", „uns"):
+</p>
+<ul>
+<li><strong>Finora Budget</strong> (Budget &amp; Finanzen)</li>
+<li><strong>Vitals Flow</strong> (Gesundheit &amp; Gewohnheiten)</li>
+<li><strong>Smart Utility Hub</strong> (Pool- &amp; Küchen-Werkzeuge)</li>
+</ul>
+<p>
+<strong>Kurzfassung: Wir erheben keine Daten von dir.</strong> Die Apps haben keine Benutzerkonten, keine
+<br>
+Analyse-Tools, keine Werbung, keine Tracker und keinen von uns betriebenen Server. Deine
+<br>
+Daten bleiben auf deinem Gerät (und, wenn du möchtest, in deiner eigenen iCloud).
+</p>
+<hr>
+<h2>1. Welche Daten wir erheben</h2>
+<p>
+<strong>Keine.</strong> Wir betreiben weder einen Server noch ein Kontosystem, und die Apps enthalten keine
+<br>
+Analyse-, Werbe-, Attributions- oder Tracking-Software von Dritten. Wir erhalten keinerlei
+<br>
+personenbezogene Daten von dir und können die von dir eingegebenen Daten nicht einsehen.
+</p>
+<h2>2. Wo deine Daten liegen</h2>
+<ul>
+<li><strong>Auf deinem Gerät.</strong> Alles, was du eingibst — Transaktionen, Budgets, Gesundheitswerte, Gewohnheiten, Pool- und Küchendaten — wird lokal auf deinem Gerät gespeichert.</li>
+<li><strong>Deine iCloud (Finora Budget und Vitals Flow, optional).</strong> Beide Apps können deine Daten über Apples <strong>private CloudKit-Datenbank</strong> zwischen deinen Apple-Geräten synchronisieren. Dabei wird <em>dein</em> iCloud-Konto verwendet; die Verwaltung liegt vollständig bei Apple, und wir haben keinen Zugriff darauf. Siehe Apples Datenschutzrichtlinie unter <a href="https://www.apple.com/legal/privacy/.">https://www.apple.com/legal/privacy/.</a></li>
+<ul>
+<li>Die Synchronisierung ist in beiden Apps eine <strong>Pro</strong>-Funktion und lässt sich jeweils über <strong>Einstellungen → iCloud-Sync</strong> abschalten. In <strong>Finora Budget</strong> ist sie <strong>standardmäßig aktiv, sobald Pro freigeschaltet ist</strong>; in <strong>Vitals Flow</strong> schaltest du sie selbst ein. In beiden Fällen wird ausschließlich deine eigene iCloud genutzt — niemals ein Server von uns.</li>
+<li><strong>Smart Utility Hub</strong> nutzt gar keine iCloud; die Daten bleiben auf deinem Gerät.</li>
+</ul>
+<li><strong>Apple Health (nur Vitals Flow, optional).</strong> Mit deiner Erlaubnis liest und schreibt Vitals Flow <strong>HealthKit</strong>-Daten. Diese Daten verbleiben unter deiner Kontrolle in deinem Health-Speicher, werden nie an uns übertragen, nie für Werbung verwendet und nicht an Dritte weitergegeben.</li>
+</ul>
+<h2>3. Optionale KI-Funktionen (eigener Schlüssel)</h2>
+<p>
+Einige Funktionen können einen KI-Anbieter zu deiner Unterstützung nutzen — etwa das Scannen
+<br>
+eines Belegs, das Ablesen eines Blutdruckmessgeräts, das Auswerten eines Pool-Teststreifens
+<br>
+oder Pool-Empfehlungen. <strong>Diese Funktionen sind standardmäßig deaktiviert</strong> und funktionieren
+<br>
+nur, wenn <strong>du</strong> deinen <strong>eigenen</strong> API-Schlüssel für einen Anbieter deiner Wahl hinterlegst:
+</p>
+<ul>
+<li><strong>OpenAI</strong> — <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a></li>
+<li><strong>Anthropic</strong> — <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
+</ul>
+<p>
+Wenn du eine solche Funktion nutzt, werden die betreffenden Inhalte (zum Beispiel das Bild oder
+<br>
+der Text, den du verarbeitest) **direkt von deinem Gerät an den von dir konfigurierten Anbieter
+<br>
+gesendet — über dein eigenes Konto und deinen eigenen Schlüssel.** Wir erhalten und speichern
+<br>
+diese Inhalte nicht und haben weder darauf noch auf deinen Schlüssel Zugriff. Für deine Nutzung
+<br>
+eines Anbieters gelten <strong>dessen</strong> Bedingungen und Datenschutzrichtlinien. Um dies vollständig zu
+<br>
+deaktivieren, hinterlege einfach keinen API-Schlüssel (oder entferne ihn in den Einstellungen).
+</p>
+<h2>4. Geräteberechtigungen</h2>
+<p>
+Die Apps fragen nur ab, was eine Funktion benötigt, und die Daten bleiben auf deinem Gerät,
+<br>
+sofern ein Abschnitt oben nichts anderes sagt:
+</p>
+<ul>
+<li><strong>Kamera</strong> — zum Scannen von Belegen, eines Blutdruckmessgeräts oder eines Pool-Teststreifens.</li>
+<li><strong>Bluetooth</strong> — zur Verbindung mit einer kompatiblen Körper- oder Küchenwaage.</li>
+<li><strong>Face ID / Touch ID</strong> — zum Sperren der App. Die biometrische Authentifizierung übernimmt Apples Secure Enclave; wir erhalten deine biometrischen Daten nie.</li>
+<li><strong>Mitteilungen</strong> — für Erinnerungen, die du selbst einrichtest (z. B. Gewohnheiten oder Rechnungen).</li>
+</ul>
+<h2>5. Weitergabe und Verkauf</h2>
+<p>
+Wir <strong>verkaufen, vermieten oder teilen</strong> deine personenbezogenen Daten mit niemandem. Wir
+<br>
+verfolgen dich nicht über andere Apps oder Websites hinweg, daher erscheint keine
+<br>
+App-Tracking-Transparenz-Abfrage.
+</p>
+<h2>6. Aufbewahrung und Löschung</h2>
+<p>
+Da deine Daten auf deinem Gerät (und optional in deiner iCloud) liegen, kontrollierst <strong>du</strong>
+<br>
+sie. Das Löschen einer App entfernt ihre Daten vom Gerät. iCloud-Daten verwaltest du in deinen
+<br>
+Apple-ID-/iCloud-Einstellungen. Exportierte Backups sind Dateien, die du selbst speicherst und
+<br>
+kontrollierst.
+</p>
+<h2>7. Datenschutz von Kindern</h2>
+<p>
+Die Apps richten sich nicht an Kinder unter 13 Jahren und erheben wissentlich keine Daten von
+<br>
+Kindern. Da wir überhaupt keine Daten erheben, werden auch keine solchen Daten erfasst.
+</p>
+<h2>8. Änderungen dieser Erklärung</h2>
+<p>
+Wenn wir diese Erklärung ändern, aktualisieren wir das oben genannte Datum und veröffentlichen
+<br>
+die überarbeitete Fassung unter dieser URL. Wesentliche Änderungen werden vor ihrem Inkrafttreten
+<br>
+kenntlich gemacht.
+</p>
+<h2>9. Übersetzungen</h2>
+<p>
+Diese Erklärung wird zur Vereinfachung in weiteren Sprachen angeboten. **Maßgeblich ist die
+<br>
+englische Fassung**; bei Abweichungen zwischen einer Übersetzung und dem englischen Text gilt der
+<br>
+englische Text.
+</p>
+<h2>10. Kontakt</h2>
+<p>
+Fragen zu dieser Erklärung? Schreib uns an <strong>[contact email]</strong>.
+</p>
+  </section>
+  <section id="doc-fr" lang="fr" hidden>
+<h1>Politique de confidentialité</h1>
+<p>
+<strong>Date d'entrée en vigueur : 16 juillet 2026</strong>
+</p>
+<p>
+Cette politique couvre les applications suivantes (« les Apps »), publiées par
+<br>
+<strong>[Developer name]</strong> (« nous ») :
+</p>
+<ul>
+<li><strong>Finora Budget</strong> (budget et finances)</li>
+<li><strong>Vitals Flow</strong> (santé et habitudes)</li>
+<li><strong>Smart Utility Hub</strong> (utilitaires piscine et cuisine)</li>
+</ul>
+<p>
+<strong>En résumé : nous ne collectons pas vos données.</strong> Les Apps n'ont ni comptes utilisateur, ni
+<br>
+outils d'analyse, ni publicité, ni traceurs, ni serveur exploité par nous. Vos informations
+<br>
+restent sur votre appareil (et, si vous le souhaitez, dans votre propre iCloud).
+</p>
+<hr>
+<h2>1. Informations que nous collectons</h2>
+<p>
+<strong>Aucune.</strong> Nous n'exploitons ni serveur ni système de comptes, et les Apps ne contiennent aucun
+<br>
+logiciel tiers d'analyse, de publicité, d'attribution ou de suivi. Nous ne recevons aucune
+<br>
+information personnelle de votre part et ne pouvons pas voir les données que vous saisissez.
+</p>
+<h2>2. Où vivent vos données</h2>
+<ul>
+<li><strong>Sur votre appareil.</strong> Tout ce que vous saisissez — transactions, budgets, mesures de santé, habitudes, données de piscine et de cuisine — est stocké localement sur votre appareil.</li>
+<li><strong>Votre iCloud (Finora Budget et Vitals Flow, facultatif).</strong> Les deux apps peuvent synchroniser vos données entre vos appareils Apple via la <strong>base de données privée CloudKit</strong> d'Apple. Cela utilise <em>votre</em> compte iCloud et est entièrement géré par Apple ; nous n'y avons aucun accès. Voir la politique de confidentialité d'Apple : <a href="https://www.apple.com/legal/privacy/.">https://www.apple.com/legal/privacy/.</a></li>
+<ul>
+<li>La synchronisation est une fonctionnalité <strong>Pro</strong> dans les deux apps, et chacune propose un interrupteur <strong>Réglages → Synchronisation iCloud</strong> pour la désactiver. Dans <strong>Finora Budget</strong>, elle est <strong>activée par défaut dès que Pro est actif</strong> ; dans <strong>Vitals Flow</strong>, vous l'activez vous-même. Dans les deux cas, seule votre propre iCloud est utilisée — jamais un serveur nous appartenant.</li>
+<li><strong>Smart Utility Hub</strong> n'utilise pas iCloud du tout ; ses données restent sur votre appareil.</li>
+</ul>
+<li><strong>Apple Santé (Vitals Flow uniquement, facultatif).</strong> Avec votre autorisation, Vitals Flow lit et écrit dans <strong>HealthKit</strong>. Ces données restent sous votre contrôle dans votre app Santé, ne nous sont jamais transmises, ne servent jamais à la publicité et ne sont pas partagées avec des tiers.</li>
+</ul>
+<h2>3. Fonctionnalités IA facultatives (votre propre clé)</h2>
+<p>
+Certaines fonctionnalités peuvent faire appel à un fournisseur d'IA pour vous aider — par exemple
+<br>
+scanner un reçu, lire un tensiomètre, analyser une bandelette de piscine ou donner des conseils
+<br>
+d'entretien. <strong>Ces fonctionnalités sont désactivées par défaut</strong> et ne fonctionnent que si
+<br>
+<strong>vous</strong> ajoutez votre <strong>propre</strong> clé d'API pour un fournisseur de votre choix :
+</p>
+<ul>
+<li><strong>OpenAI</strong> — <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a></li>
+<li><strong>Anthropic</strong> — <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
+</ul>
+<p>
+Lorsque vous utilisez une telle fonctionnalité, le contenu concerné (par exemple l'image ou le
+<br>
+texte que vous traitez) est envoyé **directement depuis votre appareil au fournisseur que vous
+<br>
+avez configuré, avec votre propre compte et votre propre clé.** Nous ne recevons pas ce contenu,
+<br>
+ne le stockons pas et n'y avons pas accès, pas plus qu'à votre clé. Votre utilisation d'un
+<br>
+fournisseur est régie par les conditions et la politique de confidentialité **de ce
+<br>
+fournisseur**. Pour désactiver complètement cela, n'ajoutez tout simplement pas de clé d'API (ou
+<br>
+retirez-la dans les Réglages).
+</p>
+<h2>4. Autorisations de l'appareil</h2>
+<p>
+Les Apps ne demandent que ce dont une fonctionnalité a besoin, et les données restent sur votre
+<br>
+appareil sauf mention contraire ci-dessus :
+</p>
+<ul>
+<li><strong>Appareil photo</strong> — pour scanner des reçus, un tensiomètre ou une bandelette de piscine.</li>
+<li><strong>Bluetooth</strong> — pour se connecter à une balance corporelle ou de cuisine compatible.</li>
+<li><strong>Face ID / Touch ID</strong> — pour verrouiller l'app. L'authentification biométrique est gérée par la Secure Enclave d'Apple ; nous ne recevons jamais vos données biométriques.</li>
+<li><strong>Notifications</strong> — pour les rappels que vous configurez (habitudes, factures, etc.).</li>
+</ul>
+<h2>5. Partage et vente</h2>
+<p>
+Nous ne <strong>vendons, ne louons ni ne partageons</strong> vos informations personnelles avec qui que ce
+<br>
+soit. Nous ne vous suivons pas à travers d'autres apps ou sites web ; aucune demande App Tracking
+<br>
+Transparency n'est donc affichée.
+</p>
+<h2>6. Conservation et suppression</h2>
+<p>
+Comme vos données sont stockées sur votre appareil (et facultativement dans votre iCloud),
+<br>
+c'est <strong>vous</strong> qui les contrôlez. Supprimer une App efface ses données locales. Les données iCloud se
+<br>
+gèrent dans vos réglages Apple ID / iCloud. Les sauvegardes que vous exportez sont des fichiers
+<br>
+que vous enregistrez et contrôlez.
+</p>
+<h2>7. Confidentialité des enfants</h2>
+<p>
+Les Apps ne s'adressent pas aux enfants de moins de 13 ans et ne collectent pas sciemment
+<br>
+d'informations les concernant. Comme nous ne collectons aucune donnée, aucune information de ce
+<br>
+type n'est recueillie.
+</p>
+<h2>8. Modifications de cette politique</h2>
+<p>
+Si nous modifions cette politique, nous mettrons à jour la date d'entrée en vigueur ci-dessus et
+<br>
+publierons la version révisée à cette adresse. Les changements importants seront indiqués avant
+<br>
+leur entrée en vigueur.
+</p>
+<h2>9. Traductions</h2>
+<p>
+Cette politique est proposée en plusieurs langues à titre de commodité. **La version anglaise
+<br>
+fait foi** ; en cas de divergence entre une traduction et le texte anglais, le texte anglais
+<br>
+prévaut.
+</p>
+<h2>10. Contact</h2>
+<p>
+Des questions sur cette politique ? Écrivez-nous à <strong>[contact email]</strong>.
+</p>
+  </section>
+  <section id="doc-pt-BR" lang="pt-BR" hidden>
+<h1>Política de Privacidade</h1>
+<p>
+<strong>Data de vigência: 16 de julho de 2026</strong>
+</p>
+<p>
+Esta política se aplica aos seguintes aplicativos (“os Apps”), publicados por
+<br>
+<strong>[Developer name]</strong> (“nós”):
+</p>
+<ul>
+<li><strong>Finora Budget</strong> (orçamento e finanças)</li>
+<li><strong>Vitals Flow</strong> (saúde e hábitos)</li>
+<li><strong>Smart Utility Hub</strong> (utilitários de piscina e cozinha)</li>
+</ul>
+<p>
+<strong>Resumo: não coletamos os seus dados.</strong> Os Apps não têm contas de usuário, ferramentas de
+<br>
+análise, publicidade, rastreadores nem qualquer servidor operado por nós. Suas informações
+<br>
+ficam no seu aparelho (e, se você quiser, no seu próprio iCloud).
+</p>
+<hr>
+<h2>1. Informações que coletamos</h2>
+<p>
+<strong>Nenhuma.</strong> Não operamos servidor nem sistema de contas, e os Apps não contêm software de
+<br>
+terceiros para análise, publicidade, atribuição ou rastreamento. Não recebemos nenhuma
+<br>
+informação pessoal sua e não conseguimos ver os dados que você insere.
+</p>
+<h2>2. Onde ficam os seus dados</h2>
+<ul>
+<li><strong>No seu aparelho.</strong> Tudo o que você insere — transações, orçamentos, medições de saúde, hábitos, dados de piscina e cozinha — é armazenado localmente no seu aparelho.</li>
+<li><strong>No seu iCloud (Finora Budget e Vitals Flow, opcional).</strong> Os dois apps podem sincronizar seus dados entre os seus aparelhos Apple usando o <strong>banco de dados privado do CloudKit</strong> da Apple. Isso usa a <em>sua</em> conta do iCloud e é gerenciado inteiramente pela Apple; não temos nenhum acesso. Veja a política de privacidade da Apple em <a href="https://www.apple.com/legal/privacy/.">https://www.apple.com/legal/privacy/.</a></li>
+<ul>
+<li>A sincronização é um recurso <strong>Pro</strong> nos dois apps, e cada um tem uma chave em <strong>Ajustes → Sincronização com o iCloud</strong> para desativá-la. No <strong>Finora Budget</strong> ela vem <strong>ativada por padrão assim que o Pro está ativo</strong>; no <strong>Vitals Flow</strong> você mesmo a ativa. Nos dois casos, apenas o seu próprio iCloud é usado — nunca um servidor nosso.</li>
+<li>O <strong>Smart Utility Hub</strong> não usa o iCloud; os dados dele ficam no seu aparelho.</li>
+</ul>
+<li><strong>Apple Saúde (somente Vitals Flow, opcional).</strong> Com a sua permissão, o Vitals Flow lê e grava no <strong>HealthKit</strong>. Esses dados permanecem sob o seu controle no app Saúde, nunca são transmitidos para nós, nunca são usados para publicidade e não são compartilhados com terceiros.</li>
+</ul>
+<h2>3. Recursos de IA opcionais (com a sua própria chave)</h2>
+<p>
+Alguns recursos podem usar um provedor de IA para ajudar você — por exemplo, digitalizar um
+<br>
+recibo, ler um medidor de pressão arterial, analisar uma fita de teste de piscina ou dar
+<br>
+orientações sobre a piscina. <strong>Esses recursos vêm desativados</strong> e só funcionam se <strong>você</strong>
+<br>
+adicionar a sua <strong>própria</strong> chave de API de um provedor à sua escolha:
+</p>
+<ul>
+<li><strong>OpenAI</strong> — <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a></li>
+<li><strong>Anthropic</strong> — <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a></li>
+</ul>
+<p>
+Ao usar um recurso desses, o conteúdo em questão (por exemplo, a imagem ou o texto que você
+<br>
+está processando) é enviado **diretamente do seu aparelho para o provedor que você configurou,
+<br>
+usando a sua própria conta e chave.** Não recebemos, não armazenamos e não temos acesso a esse
+<br>
+conteúdo nem à sua chave. O seu uso de um provedor é regido pelos termos e pela política de
+<br>
+privacidade <strong>daquele provedor</strong>. Para desativar isso por completo, basta não adicionar uma
+<br>
+chave de API (ou removê-la nos Ajustes).
+</p>
+<h2>4. Permissões do aparelho</h2>
+<p>
+Os Apps pedem apenas o que um recurso precisa, e os dados ficam no seu aparelho, salvo quando
+<br>
+alguma seção acima disser o contrário:
+</p>
+<ul>
+<li><strong>Câmera</strong> — para digitalizar recibos, um medidor de pressão ou uma fita de teste de piscina.</li>
+<li><strong>Bluetooth</strong> — para conectar a uma balança corporal ou de cozinha compatível.</li>
+<li><strong>Face ID / Touch ID</strong> — para bloquear o app. A autenticação biométrica é feita pelo Secure Enclave da Apple; nunca recebemos os seus dados biométricos.</li>
+<li><strong>Notificações</strong> — para os lembretes que você configurar (hábitos, contas, etc.).</li>
+</ul>
+<h2>5. Compartilhamento e venda</h2>
+<p>
+<strong>Não</strong> vendemos, alugamos nem compartilhamos as suas informações pessoais com ninguém. Não
+<br>
+rastreamos você por outros apps ou sites, por isso nenhum aviso de Transparência no
+<br>
+Rastreamento de Apps é exibido.
+</p>
+<h2>6. Retenção e exclusão de dados</h2>
+<p>
+Como os seus dados ficam no seu aparelho (e, opcionalmente, no seu iCloud), <strong>você</strong> os
+<br>
+controla. Excluir um App remove os dados dele do aparelho. Os dados no iCloud são gerenciados
+<br>
+nos ajustes do seu ID Apple / iCloud. Os backups que você exporta são arquivos que você mesmo
+<br>
+salva e controla.
+</p>
+<h2>7. Privacidade de crianças</h2>
+<p>
+Os Apps não são direcionados a crianças menores de 13 anos e não coletam intencionalmente
+<br>
+informações de crianças. Como não coletamos dado algum, nenhuma informação desse tipo é
+<br>
+recolhida.
+</p>
+<h2>8. Alterações nesta política</h2>
+<p>
+Se alterarmos esta política, atualizaremos a data de vigência acima e publicaremos a versão
+<br>
+revisada nesta URL. Mudanças relevantes serão indicadas antes de entrarem em vigor.
+</p>
+<h2>9. Traduções</h2>
+<p>
+Esta política é oferecida em outros idiomas por conveniência. **A versão em inglês é a
+<br>
+autoritativa**; se uma tradução divergir do texto em inglês, o texto em inglês prevalece.
+</p>
+<h2>10. Contato</h2>
+<p>
+Dúvidas sobre esta política? Fale com a gente em <strong>[contact email]</strong>.
+</p>
+  </section>
+  <footer>Generated from the PersonalSuite repository. The English version is authoritative.</footer>
+</main>
+<script>
+  (function () {
+    var codes = ["en", "es", "de", "fr", "pt-BR"];
+    var sections = {}, buttons = {};
+    codes.forEach(function (c) {
+      sections[c] = document.getElementById('doc-' + c);
+      buttons[c] = document.getElementById('btn-' + c);
+    });
+    function show(code, push) {
+      if (!sections[code]) code = 'en';
+      codes.forEach(function (c) {
+        sections[c].hidden = (c !== code);
+        buttons[c].setAttribute('aria-current', String(c === code));
+      });
+      document.documentElement.lang = code;
+      if (push) history.replaceState(null, '', '?lang=' + code);
+    }
+    function initial() {
+      // An explicit URL wins — App Store Connect points at one URL per locale.
+      var q = new URLSearchParams(location.search).get('lang');
+      var h = location.hash.replace('#', '');
+      var want = q || h;
+      if (want) {
+        if (sections[want]) return want;
+        var base = want.split('-')[0];
+        var hit = codes.filter(function (c) { return c.split('-')[0] === base; })[0];
+        if (hit) return hit;
+      }
+      // Otherwise follow the browser, matching the base language (pt → pt-BR).
+      var prefs = navigator.languages || [navigator.language || 'en'];
+      for (var i = 0; i < prefs.length; i++) {
+        var p = prefs[i];
+        if (sections[p]) return p;
+        var b = p.split('-')[0];
+        var m = codes.filter(function (c) { return c.split('-')[0] === b; })[0];
+        if (m) return m;
+      }
+      return 'en';
+    }
+    codes.forEach(function (c) {
+      buttons[c].addEventListener('click', function () { show(c, true); });
+    });
+    show(initial(), false);
+  })();
+</script>
+</body>
+</html>
