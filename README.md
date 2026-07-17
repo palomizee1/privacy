@@ -27,7 +27,7 @@ python3 Scripts/build_pages.py privacy <path-to-this-repo>
 ```
 
 The build **redacts personal data**: the developer name and contact email are replaced with
-`[Developer name]` and `[contact email]`, and it refuses to write a file that still contains
+`Jorge Villegas` and `panosvigasdev@gmail.com`, and it refuses to write a file that still contains
 them. This repo is public and its history is permanent — those two fields are filled in on
 the live page by hand, never committed here.
 
